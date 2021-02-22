@@ -1,7 +1,7 @@
-.grid-home{
-  display : grid;
+.grid-home {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-column-gap : 40px;
+  grid-column-gap: 40px;
   max-width: 75vw;
   margin: 0 auto;
 }
@@ -16,11 +16,11 @@
   line-height: 1.5em;
 }
 
-.perso-conteneur{
-  display : grid;
+.perso-conteneur {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-column-gap : 16px;
-  grid-row-gap : 40px;
+  grid-column-gap: 16px;
+  grid-row-gap: 40px;
   max-width: 75vw;
   margin: 0 auto;
   margin-top: 64px;
@@ -31,8 +31,10 @@
 }
 .perso-grid-item img {
   width: 100%;
+  border-radius: 7px;
+  box-shadow: 1px 1px 12px #777;
 }
 
 .perso-grid-item h3 {
- margin-top: 24px;
+  margin-top: 24px;
 }

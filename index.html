@@ -1,154 +1,175 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>homepage css</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/typographie.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="icon" type="image/svg" href="images/flaticon.svg" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>homepage css</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/typographie.css">
-  <link rel="stylesheet" href="css/media-queries.css">
-  <link rel="stylesheet" href="css/grid.css">
-  <link rel="icon" type="image/svg" href="images/flaticon.svg">
-
-</head>
-
-<body>
-  <header>
-    <label for="menu-burger" class="show-menu">&#9776;</label>
-    <input type="checkbox" id="menu-burger" role="button">
-  <nav class="header">
-      <ul>
-      <li><a href="index.html">Home</a></li>
+  <body>
+    <header>
+      <label for="menu-burger" class="show-menu">&#9776;</label>
+      <input type="checkbox" id="menu-burger" role="button" />
+      <nav class="header">
+        <ul>
+          <li><a href="index.html">Home</a></li>
           <li><a href="le-css.html">Le CSS</a></li>
           <li><a href="personnalites.html">Les personnalités</a></li>
           <li><a href="profil.html">Le profil de Léa Verou</a></li>
-       </ul>
-    </nav>
-  </header>
+        </ul>
+      </nav>
+    </header>
     <div class="parallax">
       <div class="en-tete">
-    <h1>Learning CSS</h1>
-    <p>Ce site a pour unique but de vous faire découvrir le monde du CSS.</p>
-  </div>
+        <h1>Learning CSS</h1>
+        <p>
+          Ce site a pour unique but de vous faire découvrir le monde du CSS.
+        </p>
+      </div>
     </div>
 
-        <div class="content-home">
-      <h2> L'évolution du CSS </h2>
+    <div class="content-home">
+      <h2>L'évolution du CSS</h2>
       <div class="grid-home">
         <div class="css-grid-item">
-        <h3>Les médias queries </h3>
-        <p>Le media queries désigne un module, une spécification CSS3, qui permet d'adapter le contenu d'une page Internet à des conditions particulières. La plupart du temps, il est mis à contribution pour modifier l'affichage d'une page Web, selon la hauteur et la largeur de l'écran utilisé pour la navigation (écran d'ordinateur...</p>
-<a class="button" href="le-css.html"><span>Voir plus</span></a>
-</div>
-  <div class="css-grid-item">
-      <h3> CSS grid layout</h3>
-        <p>CSS Grid Layout excelle à diviser une page en régions principales ou à définir la relation en termes de taille, de position et de couche, entre les parties d'un contrôle construit à partir de primitives HTML. Comme les tableaux, la disposition en grille permet à un auteur d'aligner des éléments dans des colonnes et des lignes...
-</p>
-<a class="button" href="le-css.html"><span>Voir plus</span></a>
-</div>
-<div class="css-grid-item">
-      <h3> Object fit </h3>
-        <p>Object-fit définit comment doit être coupé ou redimensionné un élément par rapport aux dimensions qui lui sont imposées. Cette propriété s'applique aux images ou aux vidéos. Elle permet d'éviter les déformations qui se produisent lorsque le ratio entre la largeur et la hauteur imposées est différent du ration de l'image ou de...</p>
-<a class="button" href="le-css.html"><span>Voir plus</span></a>
-</div>
-      </div>
-        <h2> Les personnalités importantes </h2>
-        <div class="perso">
-        <section>
-        <a href="profil.html">
-        <img class="roundedImage" src="images/leaverou.jpg" alt=""/>
-        </a>
-        <h3> Léa Verou </h3>
-        <p> Web programer</p>
-        <a href="https://lea.verou.me/">Voir son site </a>
-      </section>
-        <section>
-        <a href="personnalites.html">
-        <img class="roundedImage" src="images/chriscoyier.jpeg" alt=""/>
-        </a>
-        <h3> Chris Coyier </h3>
-        <p> Web designer and developer </p>
-        <a href="https://chriscoyier.net/">Voir son site </a>
-      </section>
-        <section>
-        <a href="personnalites.html">
-        <img class="roundedImage" src="images/sarahdrasner.jpg" alt=""/>
-        </a>
-        <h3> Sarah Drasner </h3>
-        <p> Developer Experience at Netlify </p>
-        <a href="https://www.sarasoueidan.com/"> Vois son site </a>
-      </section>
-        <section>
-        <a href="personnalites.html">
-        <img class="roundedImage" src="images/sarasoueidan.jpg" alt=""/>
-        </a>
-        <h3> Sara Soueidan </h3>
-        <p> UI engineer  </p>
-        <a href="https://sarahdrasnerdesign.com/"> Voir son site </a>
-      </section>
-        <section>
-        <a href="personnalites.html">
-        <img class="roundedImage" src="images/jensimmons.jpeg" alt=""/>
-        </a>
-        <h3> Jen Simmons </h3>
-        <p> Designer and developer </p>
-        <a href="https://jensimmons.com/"> Voir son site </a>
-      </section>
-        <section>
-        <a href="personnalites.html">
-        <img class="roundedImage" src="images/anatudor.jpg" alt=""/>
-        </a>
-        <h3> Ana Tudor </h3>
-        <p> Designer and developer </p>
-        <a href="https://codepen.io/thebabydino"> Vois son site </a>
-      </section>
-        <section>
-        <a href="personnalites.html">
-        <img class="roundedImage" src="images/allakholmatova.jpg" alt=""/>
-        </a>
-        <h3> Alla Kholmatova </h3>
-        <p> Designer, speaker and writer </p>
-        <a href="https://www.craftui.com/"> Voir son site </a>
-      </section>
-        <section>
-        <a href="personnalites.html">
-        <img class="roundedImage" src="images/valhead.jpg" alt=""/>
-        </a>
-        <h3> Val Head </h3>
-        <p> Speaker, author, and designer </p>
-        <a href="https://valhead.com/"> Voir son site </a>
-      </section>
-        <section>
-        <a href="personnalites.html">
-        <img class="roundedImage" src="images/rachelandrew.jpg" alt=""/>
-        </a>
-        <h3> Rachel Andrew </h3>
-        <p> Web developer, writer, public speaker </p>
-        <a href="https://rachelandrew.co.uk/"> Voir son site </a>
-      </section>
+          <h3>Les médias queries</h3>
+          <p>
+            Les medias queries désignent un module, une spécification CSS3, qui
+            permet d'adapter le contenu d'une page Internet à des conditions
+            particulières. La plupart du temps, ils sont mis à contribution pour
+            modifier l'affichage d'une page Web, selon la hauteur et la largeur
+            de l'écran utilisé pour la navigation (écran d'ordinateur...
+          </p>
+          <a class="button" href="le-css.html"><span>Voir plus</span></a>
         </div>
-        <h2> Léa Verou </h2>
-<div class="leaverou">
-<section class="img-lea">
-  <a href="profil.html">
-  <img  class="img-lea" src="images/leaverou.jpg" alt=""/>
-  </a>
-</section>
-<section class="texte-lea">
-  <h2>Léa Verou</h2>
-        <p>   Lea Verou (Lea étant l'abréviation de Michailia ou Μιχαήλια) est une développeur web front-end, elle travaille notamment au MIT CSAIL et en collaboration avec David Karger dans le groupe Haystack .
-
-Elle adore partager ses connaissances et a donné plus de 100 conférences et a été invitée à des conférences..</p>
-        <a class="button" href="profil.html"><span>Voir plus</span></a>
-</section>
-</div>
-</div>
-      <footer>
-          <br>
-        <ul>
+        <div class="css-grid-item">
+          <h3>CSS grid layout</h3>
+          <p>
+            CSS Grid Layout excelle à diviser une page en régions principales ou
+            à définir la relation en termes de taille, de position et de couche,
+            entre les parties d'un contrôle construit à partir de primitives
+            HTML. Comme les tableaux, la disposition en grille permet à un
+            auteur d'aligner des éléments dans des colonnes et des lignes...
+          </p>
+          <a class="button" href="le-css.html"><span>Voir plus</span></a>
+        </div>
+        <div class="css-grid-item">
+          <h3>Object fit</h3>
+          <p>
+            Object-fit définit comment doit être coupé ou redimensionné un
+            élément par rapport aux dimensions qui lui sont imposées. Cette
+            propriété s'applique aux images ou aux vidéos. Elle permet d'éviter
+            les déformations qui se produisent lorsque le ratio entre la largeur
+            et la hauteur imposées est différent du ration de l'image ou de...
+          </p>
+          <a class="button" href="le-css.html"><span>Voir plus</span></a>
+        </div>
+      </div>
+      <h2>Les personnalités importantes</h2>
+      <div class="perso">
+        <section>
+          <a href="profil.html">
+            <img class="roundedImage" src="images/leaverou.jpg" alt="" />
+          </a>
+          <h3>Léa Verou</h3>
+          <p>Web programer</p>
+          <a href="https://lea.verou.me/">Voir son site </a>
+        </section>
+        <section>
+          <a href="personnalites.html">
+            <img class="roundedImage" src="images/chriscoyier.jpeg" alt="" />
+          </a>
+          <h3>Chris Coyier</h3>
+          <p>Web designer and developer</p>
+          <a href="https://chriscoyier.net/">Voir son site </a>
+        </section>
+        <section>
+          <a href="personnalites.html">
+            <img class="roundedImage" src="images/sarahdrasner.jpg" alt="" />
+          </a>
+          <h3>Sarah Drasner</h3>
+          <p>Developer Experience at Netlify</p>
+          <a href="https://www.sarasoueidan.com/"> Vois son site </a>
+        </section>
+        <section>
+          <a href="personnalites.html">
+            <img class="roundedImage" src="images/sarasoueidan.jpg" alt="" />
+          </a>
+          <h3>Sara Soueidan</h3>
+          <p>UI engineer</p>
+          <a href="https://sarahdrasnerdesign.com/"> Voir son site </a>
+        </section>
+        <section>
+          <a href="personnalites.html">
+            <img class="roundedImage" src="images/jensimmons.jpeg" alt="" />
+          </a>
+          <h3>Jen Simmons</h3>
+          <p>Designer and developer</p>
+          <a href="https://jensimmons.com/"> Voir son site </a>
+        </section>
+        <section>
+          <a href="personnalites.html">
+            <img class="roundedImage" src="images/anatudor.jpg" alt="" />
+          </a>
+          <h3>Ana Tudor</h3>
+          <p>Designer and developer</p>
+          <a href="https://codepen.io/thebabydino"> Vois son site </a>
+        </section>
+        <section>
+          <a href="personnalites.html">
+            <img class="roundedImage" src="images/allakholmatova.jpg" alt="" />
+          </a>
+          <h3>Alla Kholmatova</h3>
+          <p>Designer, speaker and writer</p>
+          <a href="https://www.craftui.com/"> Voir son site </a>
+        </section>
+        <section>
+          <a href="personnalites.html">
+            <img class="roundedImage" src="images/valhead.jpg" alt="" />
+          </a>
+          <h3>Val Head</h3>
+          <p>Speaker, author, and designer</p>
+          <a href="https://valhead.com/"> Voir son site </a>
+        </section>
+        <section>
+          <a href="personnalites.html">
+            <img class="roundedImage" src="images/rachelandrew.jpg" alt="" />
+          </a>
+          <h3>Rachel Andrew</h3>
+          <p>Web developer, writer, public speaker</p>
+          <a href="https://rachelandrew.co.uk/"> Voir son site </a>
+        </section>
+      </div>
+      <h2>Léa Verou</h2>
+      <div class="leaverou">
+        <section class="img-lea">
+          <a href="profil.html">
+            <img class="img-lea" src="images/leaverou.jpg" alt="" />
+          </a>
+        </section>
+        <section class="texte-lea">
+          <h2>Léa Verou</h2>
+          <p>
+            Lea Verou (Lea étant l'abréviation de Michailia ou Μιχαήλια) est une
+            développeur web front-end, elle travaille notamment au MIT CSAIL et
+            en collaboration avec David Karger dans le groupe Haystack . Elle
+            adore partager ses connaissances et a donné plus de 100 conférences
+            et a été invitée à des conférences..
+          </p>
+          <a class="button" href="profil.html"><span>Voir plus</span></a>
+        </section>
+      </div>
+    </div>
+    <footer>
+      <br />
+      <ul>
         <li><a href="mentions-legales.html">Mentions légales</a></li>
-        </ul>
-      </footer>
-</body>
+      </ul>
+    </footer>
+  </body>
 </html>

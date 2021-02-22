@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swapx');
+@import url("https://fonts.googleapis.com/css2?family=Fraunces&display=swapx");
 
 * {
   box-sizing: border-box;
@@ -10,27 +10,27 @@ body {
   font-family: sans-serif;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  position:relative;
+  position: relative;
 }
 
 /* menu */
-.header{
+.header {
   position: fixed;
   width: 100%;
   background-color: white;
   box-shadow: 1px 1px 12px #777;
 }
 
-nav ul{
+nav ul {
   display: block;
   padding: 0;
-  list-style-type : none;
+  list-style-type: none;
   display: flex;
 }
 
 nav li {
   float: left;
-    list-style-type: none;
+  list-style-type: none;
 }
 
 nav li a {
@@ -56,16 +56,16 @@ nav li a:hover {
   } /* visible*/
 }
 
-header input[type="checkbox"]{
+header input[type="checkbox"] {
   display: none;
 }
 
-header input[type="checkbox"]:checked ~ nav{
+header input[type="checkbox"]:checked ~ nav {
   display: block;
   animation: menuShow 0.5s normal;
 }
 
-header label{
+header label {
   float: right;
   display: none;
   font-size: 2rem;
@@ -79,27 +79,24 @@ header label{
   box-shadow: 1px 1px 12px #777;
 }
 
-@media screen and (max-width: 600px){
-
-  header label{
+@media screen and (max-width: 600px) {
+  header label {
     display: block;
   }
 
-  header nav{
+  header nav {
     position: absolute;
     z-index: 10;
     display: none;
     right: 0em;
     top: 50px;
     width: 150px;
-
   }
 
-  nav ul{
+  nav ul {
     flex-direction: column;
     margin: 0;
   }
-
 }
 
 /* footer */
@@ -134,7 +131,7 @@ footer li a {
 }
 
 .button span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -151,7 +148,6 @@ footer li a {
   right: 0;
 }
 
-
 /* homepage */
 
 .parallax {
@@ -164,10 +160,9 @@ footer li a {
   background-size: cover;
 }
 
-.en-tete{
+.en-tete {
   max-width: 600px;
   margin-left: 10vw;
-
 }
 
 .content-home {
@@ -175,18 +170,18 @@ footer li a {
   margin: 0 auto;
 }
 
- .roundedImage{
-    overflow:hidden;
-    border-radius:100%;
-    box-shadow: 1px 1px 12px #777;
-    width:200px;
-    height:200px;
+.roundedImage {
+  overflow: hidden;
+  border-radius: 100%;
+  box-shadow: 1px 1px 12px #777;
+  width: 200px;
+  height: 200px;
 }
 
 .perso {
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
 }
 
 .perso section {
@@ -198,7 +193,7 @@ footer li a {
 }
 
 .perso img:hover {
-   opacity: 0.8;
+  opacity: 0.8;
 }
 .leaverou {
   max-width: 75vw;
@@ -225,10 +220,12 @@ footer li a {
 }
 
 /* page mention légale */
-
-.list-mentions li{
+.list-mentions{
+  margin-top: 64px;
+}
+.list-mentions li {
   float: none;
-  padding: 10px 40px 10px 40px ;
+  padding: 10px 40px 10px 40px;
   background-color: white;
 }
 
@@ -238,6 +235,7 @@ footer li a {
   height: 600px;
   object-fit: cover;
   object-position: 30% 10%;
+  border-radius: 7px;
   box-shadow: 1px 1px 12px #777;
 }
 
