@@ -1,0 +1,38 @@
+.grid-home{
+  display : grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap : 40px;
+  max-width: 75vw;
+  margin: 0 auto;
+}
+
+.css-grid-item {
+  min-width: 350px;
+  margin: 24px 0 24px 0;
+}
+
+.css-grid-item p {
+  margin-bottom: 40px;
+  line-height: 1.5em;
+}
+
+.perso-conteneur{
+  display : grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap : 16px;
+  grid-row-gap : 40px;
+  max-width: 75vw;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+
+.perso-grid-item {
+  max-width: 600px;
+}
+.perso-grid-item img {
+  width: 100%;
+}
+
+.perso-grid-item h3 {
+ margin-top: 24px;
+}
